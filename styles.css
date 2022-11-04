@@ -1,0 +1,118 @@
+:root {
+  --main-color: #007cb9;
+  --second-color: #005689;
+  --third-color: #d5eeff;
+  --fourth-color: #ff895d;
+  --main-margin: 0px auto;
+  --main-border-radius: 4px;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+h2 {
+  font-size: 48px;
+  margin: var(--main-margin);
+}
+h1 {
+  font-size: 96px;
+  margin: var(--main-margin);
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin: var(--main-margin);
+}
+p {
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid var(--third-color);
+  border-radius: var(--main-border-radius);
+  background: var(--third-color);
+  line-height: 1.5;
+}
+.navbar {
+  background-color: var(--second-color);
+}
+.websites-form {
+  margin: 50px auto;
+}
+.website-form-buttons {
+  padding: 20px 15px;
+  border: 1px solid var(--main-color);
+  border-radius: var(--main-border-radius);
+  margin: 0px 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.about-h1 {
+  margin-top: 50px;
+}
+.index-body {
+  margin: 0 auto;
+}
+.about-body {
+  margin: 0 auto;
+}
+.header {
+  margin: 50px auto;
+}
+.fr {
+  font-size: 20px;
+}
+.buttons {
+  margin: 58px auto;
+  display: flex;
+  justify-content: center;
+}
+.buttons a {
+  padding: 20px 15px;
+  border-radius: var(--main-border-radius);
+  margin: 0px 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.contact-button {
+  color: white;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.contact-button:hover {
+  color: white;
+}
+.about-button {
+  border: 1px solid var(--fourth-color);
+  color: var(--fourth-color);
+  background: transparent;
+}
+.about-button:hover {
+  color: var(--fourth-color);
+}
+#homepage-link {
+  margin: 0 auto;
+  color: var(--main-color);
+}
+#homepage-link:visited {
+  color: var(--main-color);
+}
+.text {
+  margin: 0px auto;
+  max-width: 800px;
+  font-size: 18px;
+}
+.mail-link {
+  font-size: 28px;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.mail-link:hover {
+  text-decoration: underline;
+}
+.about-me-container {
+  text-align: center;
+}
+.maria-photo {
+  width: 500px;
+}
