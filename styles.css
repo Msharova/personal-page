@@ -101,7 +101,7 @@ p {
 }
 .text {
   margin: 0px auto;
-  max-width: 800px;
+  max-width: 1000px;
   font-size: 18px;
 }
 .mail-link {
@@ -116,9 +116,20 @@ p {
   text-align: center;
 }
 .maria-photo {
-  width: 500px;
+  background: var(--third-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px;
+}
+.maria-description {
+  background: var(--third-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px;
+  padding-top: 100px;
 }
 .weather-app-img {
-  background: #d5eeff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+  background: var(--third-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.description-about {
+  display: flex;
 }
