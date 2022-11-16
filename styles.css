@@ -10,12 +10,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
-h2 {
-  font-size: 48px;
-  margin: var(--main-margin);
-}
 h1 {
   font-size: 96px;
+  margin: var(--main-margin);
+}
+h2 {
+  font-size: 48px;
   margin: var(--main-margin);
 }
 h3 {
@@ -92,13 +92,6 @@ p {
 .about-button:hover {
   color: var(--fourth-color);
 }
-#homepage-link {
-  margin: 0 auto;
-  color: var(--main-color);
-}
-#homepage-link:visited {
-  color: var(--main-color);
-}
 .text {
   margin: 0px auto;
   max-width: 1000px;
@@ -132,4 +125,33 @@ p {
 }
 .description-about {
   display: flex;
+}
+.launch-app-button {
+  display: flex;
+  justify-content: start;
+}
+#homepage-link {
+  margin: 0 auto;
+  color: var(--main-color);
+}
+#homepage-link:visited {
+  color: var(--main-color);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .weather-app-img {
+    display: none;
+  }
+  .launch-app-button {
+    justify-content: center;
+  }
 }
