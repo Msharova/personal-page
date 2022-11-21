@@ -111,7 +111,7 @@ p {
 .maria-photo {
   background: var(--third-color);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  margin: 10px 10px;
+  margin: 10px 0;
 }
 .maria-description {
   background: var(--third-color);
@@ -126,7 +126,11 @@ p {
 .description-about {
   display: flex;
 }
-.launch-app-button {
+.launch-app-button-cat {
+  display: flex;
+  justify-content: end;
+}
+.launch-app-button-weather {
   display: flex;
   justify-content: start;
 }
@@ -151,7 +155,19 @@ p {
   .weather-app-img {
     display: none;
   }
-  .launch-app-button {
+  .launch-app-button-cat,
+  .launch-app-button-weather {
     justify-content: center;
+  }
+  .description-about {
+    display: block;
+    margin: 0;
+  }
+  .maria-description {
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  .mail-link {
+    font-size: 20px;
   }
 }
