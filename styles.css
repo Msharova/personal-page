@@ -110,7 +110,8 @@ p {
   margin: 10px 10px;
   padding-top: 100px;
 }
-.weather-app-img {
+.weather-app-img,
+.cats-app-img {
   background: var(--third-color);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -132,7 +133,8 @@ p {
   h3 {
     font-size: 20px;
   }
-  .weather-app-img {
+  .weather-app-img,
+  .cats-app-img {
     display: none;
   }
   .launch-app-button-cat,
@@ -149,5 +151,8 @@ p {
   }
   .mail-link {
     font-size: 20px;
+  }
+  .about-body {
+    margin-bottom: 50px;
   }
 }
